@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<nav id="navbar">
+    <header>JAVA Tutorial</header>
+    <a class="nav-link" href="#introduction">Introduction</a>
+    <a class="nav-link" href="#syntax">Syntax</a>
+    <a class="nav-link" href="#output">Output</a>
+    <a class="nav-link" href="#comments">Comments</a>
+    <a class="nav-link" href="#variables">Variables</a>
+    <a class="nav-link" href="#data_types">Data Types</a>
+    <a class="nav-link" href="#operators">Operators</a>
+    <a class="nav-link" href="#booleans">Booleans</a>
+    <a class="nav-link" href="#method">Method</a>
+  </nav>
+<main id="main-doc">
+  <section class="main-section" id="introduction">
+    <header> Introduction</header>
+    <h2>What is Java?</h2>
+    <p>Java is a popular programming language, created in 1995.</p>
+    <p>It is owned by Oracle, and more than 3 billion devices run Java.</p>
+    <p>It is used for:</p>
+    <ul>
+      <li>Mobile applications (specially Android apps)</li>
+      <li>Desktop applications</li>
+      <li>Web applications</li>
+      <li>Web servers and application servers</li>
+      <li>Games</li>
+      <li>Database connection</li>
+      <li>And much, much more!</li>
+    </ul>
+    <hr>
+  </section>
+  <section class="main-section" id="syntax">
+    <header> Syntax</header>
+    <h2>What is Java Syntax?</h2>
+    <p> Java Syntax is a basic of the language, all the main rules, commands, constructions to write programs that the compiler and computer “understands”</p>
+    
+    <code><pre>public class Main { 
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }</pre>
+}</code>
+<hr>
+  </section>
+  <section class="main-section" id="output">
+    <header> Output</header>
+    <h2>What is the output in Java?</h2>
+    <p>
+Java input and output is an essential concept while working on java programming. It consists of elements such as input, output and stream. The input is the data that we give to the program. The output is the data what we receive from the program in the form of result.</p>
+    <code>System.out.println("Hello World");</code>
+    <hr>
+  </section>
+  <section class="main-section" id="comments">
+    <header>Comments</header>
+    <h2>Java Comments</h2>
+    <p>Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code.</p>
+    <h2>Single-line Comments</h2>
+    <p>Single-line comments start with two forward slashes (//).</p>
+    <p>Any text between // and the end of the line is ignored by Java (will not be executed).</p>
+    <p>This example uses a single-line comment before a line of code:</p>
+    <code><pre>// This is a comment
+System.out.println("Hello World");</pre></code>
+<hr>
+  </section>
+  <section class="main-section" id="variables">
+    <header>Variables</header>
+    <h2>Java Variables</h2>
+    <p>Variables are containers for storing data values.</p>
+    <p>In Java, there are different types of variables, for example:</p>
+    <ul>
+      <li><span>String</span> - stores text, such as "Hello". String values are surrounded by double quotes</li>
+      <li><span>int</span> - stores integers (whole numbers), without decimals, such as 123 or -123</li>
+      <li><span>float</span> - stores floating point numbers, with decimals, such as 19.99 or -19.99</li>
+      <li><span>char</span> - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes</li>
+      <li><span>boolean</span> - stores values with two states: true or false</li>
+    </ul>
+    <hr>
+  </section>
+  <section class="main-section" id="data_types">
+    <header>Data Types</header>
+    <h2>What is a data type in Java?</h2>
+    <p> A data type in Java represents the size and different values that can be stored in a variable. In other words, a Java data type is a set of values and operations defined on those values.</p>
+    <p>For Example</p>
+    <code><pre>
+int myNum = 5;                        // Integer (whole number)
+float myFloatNum = 5.99f;    // Floating point number
+char myLetter = 'D';                // Character
+boolean myBool = true;       // Boolean
+String myText = "Hello";        // String</pre></code>
+<hr>
+  </section>
+  <section class="main-section" id="operators">
+    <header>Operators</header>
+    <h2></h2>
+    <p>Operators are used to perform operations on variables and values.</p>
+    <p>In the example below, we use the + operator to add together two values:</p>
+    <p>Java divides the operators into the following groups:</p>
+    <ul>
+      <li>Arithmetic operators</li>
+      <li>Assignment operators</li>
+      <li>Comparison operators</li>
+      <li>Logical operators</li>
+      <li>Bitwise operators</li>
+    </ul>
+    <hr>
+    <table>
+      <thead>
+        <td>Operator</td>
+        <td>Name</td>
+        <td>Description</td>
+        <td>Example</td>
+      </thead>
+      <tr>
+        <td>+</td>
+        <td>Addition</td>
+        <td>Adds together two values</td>
+        <td>X+Y</td>
+      </tr>
+      <tr>
+        <td>-</td>
+        <td>Subtraction</td>
+        <td>Subtracts one value from another</td>
+        <td>X-Y</td>
+      </tr>
+      <tr>
+        <td>*</td>
+        <td>Multiplication</td>
+        <td>Multiplies two values</td>
+        <td>X*Y</td>
+      </tr>
+      <tr>
+        <td>/</td>
+        <td>Division</td>
+        <td>Divides one value by another</td>
+        <td>X/Y</td>
+      </tr>
+      <tr>
+        <td>%</td>
+        <td>Modulus</td>
+        <td>Returns the division remainder</td>
+        <td>X%Y</td>
+      </tr>
+      <tr>
+        <td>++</td>
+        <td>Increment</td>
+        <td>Increases the value of a variable by 1</td>
+        <td>++X</td>
+      </tr>
+      <tr>
+        <td>--</td>
+        <td>Decrement</td>
+        <td>Decreases the value of a variable by 1</td>
+        <td>--Y</td>
+      </tr>
+    </table>
+    <hr>
+  </section>
+  <section class="main-section" id="booleans">
+    <header>Booleans</header>
+    <h2>Boolean Values</h2>
+    <p>A boolean type is declared with the boolean keyword and can only take the values true or false:</p>
+    <code><pre>
+boolean isJavaFun = true;
+boolean isFishTasty = false;
+System.out.println(isJavaFun);     // Outputs true
+System.out.println(isFishTasty);   // Outputs false</pre></code>
+<hr>
+  </section>
+  <section class="main-section" id="method">
+    <header>Method</header>
+    <p>A <strong>method</strong> is a block of code which only runs when it is called.</p>
+    <p>You can pass data, known as parameters, into a method.</p>
+    <p>Methods are used to perform certain actions, and they are also known as functions.</p>
+    <p>Why use methods? To reuse code: define the code once, and use it many times.</p>
+    <h2>Create a Method</h2>
+    <p>A method must be declared within a class. It is defined with the name of the method, followed by parentheses (). Java provides some pre-defined methods, such as System.out.println(), but you can also create your own methods to perform certain actions:</p>
+    <code><pre>public class Main {
+  static void myMethod() {
+    // code to be executed
+  }
+}</pre></code>
+<hr>
+  </section>
+
+</main>
+  </body>
+</html>
